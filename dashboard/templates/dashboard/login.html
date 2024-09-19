@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+<div class="row">
+    <div class="col-lg-6 col-lg-offset-3">
+        {% include 'messages.html' %}
+        <div class="well">
+            <form class="form-horizontal" method="POST">
+                {% csrf_token %}
+                <fieldset>
+                    <legend>H4x0rs Only - Step 1/2</legend>
+                    {% crispy form %}
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}
