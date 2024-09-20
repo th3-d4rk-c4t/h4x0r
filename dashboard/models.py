@@ -20,6 +20,7 @@ class Member(BaseModel, AbstractBaseUser):
     )
     question = models.CharField(max_length = 500, default=None)
     answer = models.CharField(max_length = 50, default=None)
+    profile_data = models.CharField(max_length = 1000, default="")
 
     class Meta:
         db_table = "members"

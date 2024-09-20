@@ -8,3 +8,4 @@
     username: 'john'
     question: 'yes or no?'
     answer: 'yes'
+    profile_data: 'lorem ipsum'
