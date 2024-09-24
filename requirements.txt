@@ -3,3 +3,5 @@ django-crispy-forms==2.1
 django-extensions==3.2.3
 crispy-bootstrap3==2024.1
 pyyaml==6.0.2
+psycopg2-binary==2.9.6
+gunicorn==23.0.0
