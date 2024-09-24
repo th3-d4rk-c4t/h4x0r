@@ -9,3 +9,14 @@
     question: 'yes or no?'
     answer: 'yes'
     profile_data: 'lorem ipsum'
+- model: dashboard.member
+  pk: 25a1ff92-3184-4cef-b28d-98c5141c21f6
+  fields:
+    password: ''
+    last_login: null
+    created_at: 2024-09-24 15:11:01.035462+00:00
+    updated_at: 2024-09-24 15:11:01.777759+00:00
+    username: 'PawfessionalHacker'
+    question: What's your purrferred Pokemon?
+    answer: 'meowth'
+    profile_data: I don't know what to put here
