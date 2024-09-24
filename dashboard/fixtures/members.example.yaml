@@ -1,3 +1,5 @@
+# This file SHOULD NOT BE edited!
+# Use the `dashboard/fixtures/members.yaml` which is not versioned.
 - model: dashboard.member
   pk: 7373456b-0559-43c0-8dd7-8b4c048bd3a0
   fields:
