@@ -43,19 +43,6 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                            aria-expanded="false">MENU<span class="caret"></span> </a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="#">Ooh a link</a></li>
-                            <li><a href="#">Two links?! Oh boy</a></li>
-                            <li><a href="#">Now you're being ridiculous</a></li>
-                            <li class="divider"></li>
-                            <li class="dropdown-header">Much Wow</li>
-                            <li><a href="#">So link</a></li>
-                            <li><a href="#">Many internet</a></li>
-                        </ul>
-                    </li>
                     <li>
                         {% if user.is_authenticated %}
                         <a href="{% url 'logout' %}">Logout</a>
